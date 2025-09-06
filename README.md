@@ -75,6 +75,47 @@ You are tasked with cleaning and validating a dataset containing Indian PAN numb
 The dataset is provided separately as an Excel file:  
 `PAN Number Validation Dataset.xlsx`
 
+## 📊 Example Summary Report
+
+| TOTAL PROCESSED RECORDS | TOTAL VALID COUNT | TOTAL INVALID COUNT | TOTAL MISSING PANS |
+|-------------------------|-------------------|---------------------|-------------------|
+| 10000                   | 3193              | 5832                | 975               |
+
+## 📋 Sample PAN Validations Output
+
+| Pan_Number | Status  |
+|------------|---------|
+| VGLOD3180G | Valid   |
+| PHOXD7232L | Valid   |
+| MGEPH6532A | Valid   |
+| JJCHK4574O | Invalid |
+| XTQIJ2330L | Invalid |
+| HTJYM3835H | Valid   |
+| YQTAP6661X | Invalid |
+| HVOFE5635Y | Valid   |
+| HYUIJ7902R | Valid   |
+| IDSMT3429E | Valid   |
+| ABKJN5176J | Valid   |
+| VUCZU0860T | Valid   |
+| HZVMG3577F | Invalid |
+| OWUIS0525P | Valid   |
+| ETVSQ2345L | Valid   |
+| TWNGF1358L | Valid   |
+| OUPMW5639M | Valid   |
+| TLVFA0299E | Invalid |
+| DOURT5035Y | Invalid |
+| GAVCQ1260C | Valid   |
+| IMJQF4986W | Valid   |
+| GZLLP1469G | Invalid |
+| POTPT8630S | Valid   |
+| HUAYW0019Y | Invalid |
+| QHVER2630M | Valid   |
+| HJLWW1202H | Invalid |
+| XVRUI1629V | Valid   |
+| ILFQO0021U | Invalid |
+| LSJNM0572P | Valid   |
+| ZPJQS1155M | Invalid |
+
 ## 📚 Learn More
 
 This project is part of a hands-on data engineering project demonstrating real-world data cleaning and validation processes using SQL.
